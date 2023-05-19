@@ -3,7 +3,7 @@ const pg = require('pg');
 const connection = new pg.Pool({// apllication database connection
     // const connection = new pg.Client({// apllication database connection
     user: 'tracker',
-    host: 'bxl-db.c6ypiqv0awyo.us-east-1.rds.amazonaws.com',
+    host: 'bxl-db.c6ypiqv0awyo.us-east-1.rds.amazonaws.coms',
     database: 'innotracker',
     password: 'fghjk%$^&hgjk',
     port: 5432,
