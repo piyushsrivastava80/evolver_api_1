@@ -16,7 +16,6 @@ var usersRouter = require('./routes/users');
 var app = express();
 app.use(session({ secret: 'ssshhhhh' }));
 // bodyParser should be above methodOverride
-app.use(bodyParser());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(flash());
 console.log("In App.js");
