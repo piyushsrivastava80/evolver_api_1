@@ -45,6 +45,7 @@ console.log("In App.js3");
 app.use(function (req, res, next) {
   next(createError(404));
 });
+console.log("In App.js4");
 
 // error handler
 app.use(function (err, req, res, next) {
@@ -56,5 +57,6 @@ app.use(function (err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+console.log("In App.js5");
 
 module.exports = app;
