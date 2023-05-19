@@ -11,14 +11,14 @@ node(){
         }
         
     }
-    stage('Build') {
+    stage('Build backend') {
         nodejs('nodejs') {
             sh 'node app.js'
             echo "Build completed"
         }        
     }
 
-    stage('Package Build') {
+    stage('Package Build backend') {
         sh "tar -zcvf bundle.tar.gz dist/api/"
     } 
  
