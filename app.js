@@ -25,8 +25,8 @@ app.engine('ejs', engine);
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-dotenv.config(`${process.env.SECRET_KEY}`);
-console.log(process.env.JWT_KEY)
+// dotenv.config(`${process.env.SECRET_KEY}`);
+// console.log(process.env.JWT_KEY)
 
 
 // ######## Start Access-Control-Allow-Origin ###### //
