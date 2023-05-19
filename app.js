@@ -56,7 +56,8 @@ app.use(function (req, res, next) {
 app.use(cors({
   // origin: 'http://localhost:4200'
   // origin: 'https://horizon.alpha-meld.com'
-  origin: ['http://localhost:4200']
+  // origin: ['http://localhost:4200']
+  origin: ['http://52.66.245.37']
 }));
 
 app.use(logger('dev'));
