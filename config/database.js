@@ -12,7 +12,7 @@ const connection = new pg.Pool({// apllication database connection
 });
 connection.connect(function (err) {
     if (!err) {
-        console.log("Evolver Database is connected ... ");
+        console.log("Evolver Database is connected here ... ");
     } else {
         console.log('Evolver DB Connection Error ! ' + err);
     }
